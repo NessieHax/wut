@@ -29,6 +29,7 @@
 #include <coreinit/internal.h>
 #include <coreinit/interrupts.h>
 #include <coreinit/ios.h>
+#include <coreinit/kernel.h>
 #include <coreinit/mcp.h>
 #include <coreinit/memblockheap.h>
 #include <coreinit/memdefaultheap.h>
@@ -45,6 +46,7 @@
 #include <coreinit/scheduler.h>
 #include <coreinit/screen.h>
 #include <coreinit/semaphore.h>
+#include <coreinit/smd.h>
 #include <coreinit/spinlock.h>
 #include <coreinit/systeminfo.h>
 #include <coreinit/taskqueue.h>
@@ -145,6 +147,7 @@
 #include <sysapp/switch.h>
 #include <sysapp/title.h>
 #include <vpad/input.h>
+#include <vpadbase/base.h>
 #include <wut.h>
 #include <wut_structsize.h>
 #include <wut_types.h>
